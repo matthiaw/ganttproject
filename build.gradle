@@ -52,11 +52,3 @@ allprojects {
         delete += "dist-bin"
     }
 }
-
-
-//
-//runtime {
-//    distDir = rootProject.distBinDir
-//    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
-//    modules = ['java.base']
-//}
