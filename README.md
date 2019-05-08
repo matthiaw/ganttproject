@@ -1,6 +1,6 @@
 GanttProject
 ============
-[![Build Status](https://travis-ci.org/bardsoftware/ganttproject.svg?branch=master)](https://travis-ci.org/bardsoftware/ganttproject) [![Dependency Status](https://www.versioneye.com/user/projects/5ac791f20fb24f0ac49c5731/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5ac791f20fb24f0ac49c5731)
 
-GanttProject is an open-source desktop project scheduling and management tool. It is written in Java/Swing.
+GanttProject is an open-source desktop project scheduling and management tool. This is a forked project from https://github.com/bardsoftware/ganttproject.
 
+The goal of this project is to allow autoplanning, so the gantt-tasks are in length optimized by ressource estimate-to-completion on task and ressource-availability.
