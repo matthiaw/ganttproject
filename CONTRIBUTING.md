@@ -10,3 +10,4 @@ If you're up for writing some Java/Kotlin code in GanttProject,we kindly ask you
 The guidelines help us to keep the code base healthy and keep moving on.
 
 
+
