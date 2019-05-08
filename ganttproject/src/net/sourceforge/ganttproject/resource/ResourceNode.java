@@ -56,6 +56,14 @@ public class ResourceNode extends ResourceTableNode {
     return resource.getPhone();
   }
 
+  public void setAvailability(double availability) {
+    resource.setAvailability(availability);
+  }
+
+  public double getAvailability() {
+    return resource.getAvailability();
+  }
+
   public void setEMail(String email) {
     resource.setMail(email);
   }
@@ -78,6 +86,7 @@ public class ResourceNode extends ResourceTableNode {
     case NAME: return getName();
     case ROLE: return getDefaultRole();
     case EMAIL: return getEMail();
+    case AVAILABILITY: return getAvailability();
     case PHONE: return getPhone();
     case STANDARD_RATE: return getResource().getStandardPayRate();
     case TOTAL_COST: return getResource().getTotalCost();
@@ -95,6 +104,9 @@ public class ResourceNode extends ResourceTableNode {
     case EMAIL:
       setEMail(value.toString());
       return;
+    case AVAILABILITY:
+        setAvailability(Double.parseDouble(value.toString()));
+        return;
     case PHONE:
       setPhone(value.toString());
       return;

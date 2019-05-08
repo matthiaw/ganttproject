@@ -57,6 +57,8 @@ public class HumanResource implements CustomPropertyHolder {
 
   private Role myRole;
 
+  private double availability;
+
   private String description;
 
   private LoadDistribution myLoadDistribution;
@@ -134,6 +136,15 @@ public class HumanResource implements CustomPropertyHolder {
 
   public void setName(String name) {
     this.name = name;
+    fireResourceChanged();
+  }
+
+  public double getAvailability() {
+    return this.availability;
+  }
+
+  public void setAvailability(double availability) {
+    this.availability = availability;
     fireResourceChanged();
   }
 

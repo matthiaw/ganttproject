@@ -43,6 +43,7 @@ public class HumanResourceManager {
     Integer myID;
     String myEmail;
     String myPhone;
+    double availability;
     String myRole;
     BigDecimal myStandardRate;
 
@@ -132,6 +133,7 @@ public class HumanResourceManager {
         result.setRole(role);
         result.setPhone(myPhone);
         result.setMail(myEmail);
+        result.setAvailability(availability);
         result.setStandardPayRate(myStandardRate);
         add(result);
         return result;
