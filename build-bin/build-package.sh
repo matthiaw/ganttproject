@@ -45,3 +45,4 @@ ${PACKAGER} \
   --linux-deb-maintainer "Dmitry Barashev, BarD Software s.r.o" \
   --runtime-image "${OUTPUT}/runtime" \
   ${EXTRA_BUNDLER_ARGUMENTS}
+

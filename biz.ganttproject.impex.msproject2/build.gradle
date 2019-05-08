@@ -6,7 +6,7 @@ sourceSets {
         java {
             srcDir 'src'
         }
-        resources {
+        resources { 
         }
     }
 }

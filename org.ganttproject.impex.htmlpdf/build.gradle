@@ -39,3 +39,4 @@ task copyPlugin(dependsOn: assemble) {
         println "<<< $project.name"
     }
 }
+
